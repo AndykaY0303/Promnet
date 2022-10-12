@@ -1,5 +1,5 @@
-function getIntersection(array1, array2){
-    return array1.filter(function(item){
+function getIntersection (array1, array2){
+    return array1.filter (function(item){
         return array2.indexOf(item) !== -1;
     });
 }
